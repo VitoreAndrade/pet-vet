@@ -21,4 +21,8 @@ export class LoginComponent {
   navigateToRedefinirSenha (){
     this.router.navigate(['/redefinir-senha'])
   }
+
+  navigateToPetVet (){
+    this.router.navigate(['/pet-vet'])
+  }
 }

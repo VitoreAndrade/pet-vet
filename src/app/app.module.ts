@@ -11,13 +11,17 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { RedefinirSenhaComponent } from './componentes/redefinir-senha/redefinir-senha.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { PetVetComponent } from './componentes/pet-vet/pet-vet.component';
+import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LoginComponent,
-    RedefinirSenhaComponent
+    RedefinirSenhaComponent,
+    PetVetComponent,
+    CabecalhoComponent
   ],
   imports: [
     BrowserModule,
