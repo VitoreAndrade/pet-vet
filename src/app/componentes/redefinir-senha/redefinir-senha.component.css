@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ .login{
+    width: 40%;
+    height: 74vh;
+    background-color: white;
+    border-radius: 21px;
+    box-shadow: 0px 4px 9px black;
+    display: flex;
+    flex-direction: column;
+} 
+
+.acesso{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    box-shadow: 0px 2px 4px 0px;
+    width: 100%;
+    height: 30vh;
+    gap: 20px;
+    border-radius: 21px;
+    margin-bottom: 4%;
+}
+
+.label-acesso{
+    display: flex;
+    gap: 10px;
+}
+
+.logo{
+    width: 150px;
+    height: 15vh;
+}
+
+.formulario{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    padding: 0% 6%;
+    /* height: 26vh; */
+    /* border-radius: 21px; */
+
+}
+
+.tipo-documento{
+    background-color: red;
+    width: 20%;
+}
+
+input{
+    width: 100%;
+    height: 4vh;
+    border-top: 12px;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+}
+.campos-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.redefinir-senha{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.botoes{
+    margin-top: 14%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 6%;
+}
+
+.avancar{
+    background-color: black;
+    color: white;
+    width: 26%;
+    height: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 21px;
+    cursor: pointer;
+}
+
+.avancar:hover{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+
+/* .redefinir-senha{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+} */
+
+
+   
+
+

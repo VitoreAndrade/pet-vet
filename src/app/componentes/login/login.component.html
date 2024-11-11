@@ -1,0 +1,24 @@
+<body class="container">
+    <div class="login">
+        <div class="acesso" >
+            <img src="/assets/logo-login.png" alt="logo de login" class="logo">
+            <div class="label-acesso">
+                <fa-icon [icon]="icons.lock"></fa-icon>
+                <label for="" class="title">Acesso</label>
+            </div>    
+        </div>
+        <form class="formulario">
+            <div class="campos-formulario">
+                <fa-icon [icon]="icons.user"></fa-icon>
+                <input type="email" placeholder="Insira seu email"  />
+                <fa-icon [icon]="icons.lock"></fa-icon>
+                <input type="text" placeholder="Insira sua senha"  />
+            </div>    
+        </form>  
+        <div class="botoes">
+            <button class="redefinir-senha" (click)="navigateToRedefinirSenha()">Redefinir senha</button>
+            <button class="avancar">Avançar</button>
+        </div>
+    </div>    
+  
+</body>

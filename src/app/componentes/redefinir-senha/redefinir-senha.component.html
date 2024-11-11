@@ -1,0 +1,25 @@
+<body class="container">
+    <div class="login">
+        <div class="acesso" >
+            <img src="/assets/logo-login.png" alt="logo de login" class="logo">
+            <div class="label-acesso">
+                <!-- <fa-icon [icon]="icons.lock"></fa-icon> -->
+                <label for="" class="title">Redefinir senha</label>
+            </div>    
+        </div>
+        <form class="formulario">
+            <div class="campos-formulario">
+                <!-- <fa-icon [icon]="icons.user"></fa-icon> -->
+                <input type="email" placeholder="Informe um email cadastrado"  />
+                <!-- <fa-icon [icon]="icons.lock"></fa-icon> -->
+                <input type="password" placeholder="Insira sua nova senha"  />
+                <input type="password" placeholder="Confirme a senha"/>
+            </div>    
+        </form>  
+        <div class="botoes">
+            <button class="avancar" (click)="navigateToLogin()"> <fa-icon [icon]="icons.leftLong"></fa-icon> Voltar</button>
+            <button class="avancar">Avançar  <fa-icon [icon]="icons.rightLong"> </fa-icon> </button>
+        </div>
+    </div>    
+  
+</body>
