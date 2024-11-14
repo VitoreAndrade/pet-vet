@@ -1,8 +1,20 @@
-<header class="cabecalho">
-    <mat-toolbar>
+<header >
+    <mat-toolbar class="cabecalho">
         <div class="title-logo">
-            <!-- <img [src]="'/assets/logo-login.png'" alt="" class="logo"> -->
+            <img [src]="'/assets/logo-login.png'" alt="" class="logo">
             <p class="title-cabecalho"> {{title}}</p>
+        </div>
+        <div class="rotas">
+            <button mat-button>Inicio</button>
+            <button mat-button>Produtos</button>
+            <button mat-button>Agenda</button>
+            <button mat-raised-button color="primary" >CADASTRE-SE</button>
+            <button mat-raised-button color="primary">CADASTRE-SE</button>
+        </div>
+        <div class="usuario">
+            <h5>
+               Bem vindo, {{usuario}}
+            </h5>
         </div>
     </mat-toolbar>    
 </header>

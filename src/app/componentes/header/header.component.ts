@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 export class HeaderComponent {
   @Input() src: string = ''
   @Input() title: string = ''
+
+  usuario: string = ''
 }

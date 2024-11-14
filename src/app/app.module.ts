@@ -13,6 +13,7 @@ import { RedefinirSenhaComponent } from './componentes/redefinir-senha/redefinir
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { PetVetComponent } from './componentes/pet-vet/pet-vet.component';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
+import { ProdutoServicoComponent } from './componentes/produto-servico/produto-servico.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component'
     LoginComponent,
     RedefinirSenhaComponent,
     PetVetComponent,
-    CabecalhoComponent
+    CabecalhoComponent,
+    ProdutoServicoComponent
   ],
   imports: [
     BrowserModule,

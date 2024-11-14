@@ -1,18 +1,39 @@
-.example-spacer {
+.cabecalho {
     flex: 1 1 auto;
+    padding: 0 2%;
     background-color: black;
+    display: flex;
+    gap: 2%;
+    
   }
 
-.cabecalho{
-   
-   
-}
+  .rotas{
+    
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 
-.mat-toolbar{
-    background-color: black;
-    padding: 0 2%;
-   
-}
+    button{
+        width: 16%;
+        border-radius: 21px;
+        width: 16%;
+        border-radius: 21px;
+        border: 2px;
+        background-color: white;
+        color: black;
+        height: 2rem;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    button:hover{    
+            background-color: cornflowerblue;
+            color: white;
+            border: none;
+    }
+  }
 
 
 .title-cabecalho{
@@ -20,6 +41,7 @@
     font-weight: 500;
     font-family: sans-serif;
     color: white;
+    margin: 0;
 }
 
 .title-logo{
@@ -31,4 +53,12 @@
 
 .logo{
     background-color: white;
+}
+
+.usuario{
+    
+    color: white;
+    height: 2rem;
+    font-size: 14px;
+    font-weight: 600;
 }
